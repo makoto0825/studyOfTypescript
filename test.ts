@@ -57,5 +57,5 @@ function func1<T extends string | boolean>(value: T): T {
   return value;
 }
 func1<string>("John");
-func1<number>(100); //error happened
+// func1<number>(100); //error happened
 func1<boolean>(true);
