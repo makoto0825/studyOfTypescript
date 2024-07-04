@@ -53,9 +53,9 @@ const test2: Interface4<number> = {
 // const func2 = <T extends string|boolean>(value: T): T => {
 //   return value;
 // };
-function func1<T extends string | boolean>(value: T): T {
+function func5<T extends string | boolean>(value: T): T {
   return value;
 }
-func1<string>("John");
+func5<string>("John");
 // func1<number>(100); //error happened
-func1<boolean>(true);
+func5<boolean>(true);
